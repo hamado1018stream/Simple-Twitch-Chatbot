@@ -1,6 +1,5 @@
 const tmi = require('tmi.js'),
     { channel, username, password } = require('./config.json');
-const port = process.env.PORT || 0000;
 
 const options = {
     options: { debug: true },
