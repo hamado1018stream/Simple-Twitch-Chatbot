@@ -41,8 +41,8 @@ client.on('message', (channel, user, message, self) => {
         client.say(channel, `Profile: https://www.roblox.com/users/190246953/profile`);
     }
 
-    if(message.includes("awesome")) {
-        client.say(channel, `If you enjoyed the content, make sure you follow! <3`);
+    if(message.includes("!bot")) {
+        client.say(channel, `working`);
     }
 
 });
