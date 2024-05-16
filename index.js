@@ -26,19 +26,19 @@ client.on('message', (channel, user, message, self) => {
     if(self) return;
 
     if(message == 'hello') {
-        client.say(channel, `@${user.username}, hello!`);
+        client.say(channel, `Hello! @${user.username}`);
     }
 
-    if(message == '!dice') {
-        client.say(channel, `@${user.username} rolled a ${Math.floor(Math.random() * 6) + 1}!`);
+    if(message == '!socials') {
+        client.say(channel, `All My Socials on my website: https://hamado1018.free.nf/?i=1 `);
     }
 
     if(message == '!discord') {
-        client.say(channel, `${user.usernamme}, join the Discord here: https://discord.gg/tmhxwernES`);
+        client.say(channel, `${user.usernamme}, Join the Discord here: https://discord.gg/UA62ZMYwB4`);
     }
 
-    if(message == '!credits') {
-        client.say(channel, `${username} was made by Bloxiphy#1337!`);
+    if(message == '!roblox') {
+        client.say(channel, `Profile: https://www.roblox.com/users/190246953/profile`);
     }
 
     if(message.includes("awesome")) {
