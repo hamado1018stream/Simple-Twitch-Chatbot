@@ -1,5 +1,5 @@
 {
-    "channel" : "TWITCH_CHANNEL_NAME_HERE",
-    "username" : "BOT_ACCOUNT_NAME_HERE",
-    "password" : "TWITCH_CHAT_PASSWORD_HERE"
+    "channel" : "hamado1018_ttv",
+    "username" : "hamadobot__",
+    "password" : "oauth:c5dvja4e2sox5ispzd3695irnztrky"
 }
